@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="@string/screen_orientation_default"
+        android:entries="@array/screen_orientation_entries"
+        android:entryValues="@array/screen_orientation_entryvalues"
+        android:key="@string/screen_orientation_key"
+        android:title="@string/screen_orientation_title" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/sleep_mode_key"
+        android:summaryOff="@string/sleep_mode_summary_off"
+        android:summaryOn="@string/sleep_mode_summary_on"
+        android:title="@string/sleep_mode_title" />
+
+    <PreferenceCategory android:title="@string/color_pref_category_title">
+        <com.jrummyapps.android.colorpicker.ColorPreference
+            android:key="@string/color_console_text_key"
+            android:title="@string/color_console_text_title"
+            app:cpv_showAlphaSlider="true" />
+
+        <com.jrummyapps.android.colorpicker.ColorPreference
+            android:key="@string/color_console_background_key"
+            android:title="@string/color_console_background_title"
+            app:cpv_showAlphaSlider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

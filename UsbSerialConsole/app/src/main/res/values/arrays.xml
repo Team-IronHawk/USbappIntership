@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baudrate_entries" translatable="false">
+        <item>100</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+    <string-array name="baudrate_entryvalues" translatable="false">
+        <item>100</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+
+    <string-array name="databits_entries" translatable="false">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="databits_entryvalues" translatable="false">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="parity_entries" translatable="false">
+        <item>none</item>
+        <item>odd</item>
+        <item>even</item>
+        <item>mark</item>
+        <item>space</item>
+    </string-array>
+    <string-array name="parity_entryvalues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="stopbits_entries" translatable="false">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="stopbits_entryvalues" translatable="false">
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="flowcontrol_entries" translatable="false">
+        <item>off</item>
+        <item>RTS/CTS</item>
+        <item>DSR/DTRd</item>
+        <item>Xon/Xoff</item>
+    </string-array>
+    <string-array name="flowcontrol_entryvalues" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="timestamp_format_entries" translatable="false">
+        <item>yyyy/MM/dd HH:mm:ss.SSS</item>
+        <item>yyyy/MM/dd HH:mm:ss</item>
+        <item>MM/dd HH:mm:ss.SSS</item>
+        <item>MM/dd HH:mm:ss</item>
+        <item>HH:mm:ss.SSS</item>
+        <item>HH:mm:ss</item>
+    </string-array>
+    <string-array name="timestamp_format_entryvalues" translatable="false">
+        <item>yyyy/MM/dd HH:mm:ss.SSS</item>
+        <item>yyyy/MM/dd HH:mm:ss</item>
+        <item>MM/dd HH:mm:ss.SSS</item>
+        <item>MM/dd HH:mm:ss</item>
+        <item>HH:mm:ss.SSS</item>
+        <item>HH:mm:ss</item>
+    </string-array>
+
+    <string-array name="screen_orientation_entries" translatable="false">
+        <item>@string/screen_orientation_device_setting</item>
+        <item>@string/screen_orientation_portrait</item>
+        <item>@string/screen_orientation_landscape</item>
+        <item>@string/screen_orientation_reverse_portrait</item>
+        <item>@string/screen_orientation_reverse_landscape</item>
+    </string-array>
+    <string-array name="screen_orientation_entryvalues" translatable="false">
+        <item>@string/screen_orientation_device_setting_value</item>
+        <item>@string/screen_orientation_portrait_value</item>
+        <item>@string/screen_orientation_landscape_value</item>
+        <item>@string/screen_orientation_reverse_portrait_value</item>
+        <item>@string/screen_orientation_reverse_landscape_value</item>
+    </string-array>
+
+    <string-array name="line_feed_code_entries" translatable="false">
+        <item>@string/line_feed_code_cr</item>
+        <item>@string/line_feed_code_lf</item>
+        <item>@string/line_feed_code_cr_lf</item>
+    </string-array>
+    <string-array name="line_feed_code_entryvalues" translatable="false">
+        <item>@string/line_feed_code_cr_value</item>
+        <item>@string/line_feed_code_lf_value</item>
+        <item>@string/line_feed_code_cr_lf_value</item>
+    </string-array>
+</resources>
